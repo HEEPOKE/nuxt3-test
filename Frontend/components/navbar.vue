@@ -1,9 +1,9 @@
 <template lang="">
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <nuxt-link to="/">
+      <NuxtLink to="/">
         <a class="navbar-brand">Nuxt</a>
-      </nuxt-link>
+      </NuxtLink>
       <button
         class="navbar-toggler"
         type="button"
@@ -18,14 +18,14 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <nuxt-link to="/">
+            <NuxtLink to="/">
               <a class="nav-link active" aria-current="page">Home</a>
-            </nuxt-link>
+            </NuxtLink>
           </li>
           <li class="nav-item">
-            <nuxt-link to="/store">
+            <NuxtLink to="/store">
               <a class="nav-link">Store</a>
-            </nuxt-link>
+            </NuxtLink>
           </li>
         </ul>
       </div>

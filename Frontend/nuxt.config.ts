@@ -31,4 +31,18 @@ export default defineNuxtConfig({
       ],
     },
   },
+  // router: {
+  //   routes: [
+  //     {
+  //       name: "IndexVue",
+  //       path: "/",
+  //       component: "./pages/index.vue",
+  //     },
+  //     {
+  //       name: "StoreVue",
+  //       path: "/store",
+  //       component: "./pages/Store",
+  //     },
+  //   ],
+  // },
 });
