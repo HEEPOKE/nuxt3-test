@@ -16,12 +16,13 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <NuxtLink class="nav-link active" aria-current="page" to="/">
-              Home
-            </NuxtLink>
+            <NuxtLink class="nav-link" to="/">Home</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink to="/store" class="nav-link"> Store </NuxtLink>
+            <NuxtLink class="nav-link" to="/store">Store</NuxtLink>
+          </li>
+          <li class="nav-item">
+            <NuxtLink class="nav-link" to="/chart">Chart</NuxtLink>
           </li>
         </ul>
       </div>
