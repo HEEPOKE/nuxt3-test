@@ -1,7 +1,9 @@
 <template lang="">
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar w/ text</a>
+      <nuxt-link to="/">
+        <a class="navbar-brand">Nuxt</a>
+      </nuxt-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -16,22 +18,22 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <nuxt-link to="/">
+              <a class="nav-link active" aria-current="page">Home</a>
+            </nuxt-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <nuxt-link to="/store">
+              <a class="nav-link">Store</a>
+            </nuxt-link>
           </li>
         </ul>
-        <span class="navbar-text"> Navbar text with an inline element </span>
       </div>
     </div>
   </nav>
 </template>
 <script>
 export default {
-    name: "NavbarVue",
+  name: "NavbarVue",
 };
 </script>
