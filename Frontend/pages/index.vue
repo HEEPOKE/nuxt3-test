@@ -6,7 +6,7 @@
 import NavbarVue from "../components/navbar.vue";
 
 export default {
-  name: "HomeVue",
+  name: "IndexVue",
   components: {
     NavbarVue,
   },
