@@ -3,7 +3,11 @@
   <div class="container justify-content-center col-8">
     <div class="card">
       <div class="card-body">
-        <button class="btn btn-primary col-auto mb-3 float-end">create</button>
+        <NuxtLink to="/create">
+          <button class="btn btn-primary col-auto mb-3 float-end">
+            create
+          </button>
+        </NuxtLink>
         <table class="table table-dark table-striped-columns">
           <thead>
             <tr class="text-center">
